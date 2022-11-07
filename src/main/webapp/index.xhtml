@@ -25,8 +25,14 @@
                         </div>
                         <div class="card-body">
                             <p class="card-text">#{post.article}</p>
-                            <a href="detail.xhtml" class="btn btn-outline-primary">Read more...</a>
-                            <h:commandButton class="btn btn-danger" action="#{postService.deletePost(status.index)}" value="Delete"/>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <a href="detail.xhtml" class="btn btn-outline-primary">Read more...</a>
+                                </div>
+                                <div>
+                                    <h:commandButton class="btn btn-danger" action="#{postService.deletePost(status.index)}" value="Delete"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </ui:repeat>
