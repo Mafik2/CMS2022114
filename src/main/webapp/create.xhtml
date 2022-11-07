@@ -23,7 +23,11 @@
                 </div>
                 <div class="mb-3">
                     <label for="description" class="form-label">Description</label>
-                    <h:inputTextarea type="text" class="form-control" id="description" value="#{postService.newPost.description}" required="true"/>
+                    <h:inputText type="text" class="form-control" id="description" value="#{postService.newPost.description}" required="true"/>
+                </div>
+                <div class="mb-3">
+                    <label for="article" class="form-label">Article</label>
+                    <h:inputTextarea type="text" class="form-control" id="article" value="#{postService.newPost.article}" required="true"/>
                 </div>
                 <h:commandButton action="#{postService.submitPost()}" type="submit" class="btn btn-outline-success" value="Submit"/>
             </h:form>

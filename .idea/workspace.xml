@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/create.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="Added article&#10;Working delete article">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/create.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="jsf" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,7 +53,17 @@
       <workItem from="1667559399766" duration="848000" />
       <workItem from="1667566794536" duration="824000" />
       <workItem from="1667675321053" duration="3065000" />
+      <workItem from="1667679345002" duration="771000" />
+      <workItem from="1667818617528" duration="947000" />
     </task>
+    <task id="LOCAL-00001" summary="crate post done&#10;showing posts done">
+      <created>1667679409229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667679409229</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +79,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="crate post done&#10;showing posts done" />
+    <MESSAGE value="Added article" />
+    <MESSAGE value="Added article&#10;Working delete article" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added article&#10;Working delete article" />
   </component>
 </project>

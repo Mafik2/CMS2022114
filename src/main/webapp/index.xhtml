@@ -18,14 +18,15 @@
         <hr/>
         <div>
             <h:form>
-                <ui:repeat value="#{postService.post}" var="post">
-                    <div class="card">
+                <ui:repeat value="#{postService.post}" var="post" varStatus="status">
+                    <div class="card m-2">
                         <div class="card-header">
                             <h5 class="card-title">#{post.title}</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">#{post.description}</p>
+                            <p class="card-text">#{post.article}</p>
                             <a href="detail.xhtml" class="btn btn-outline-primary">Read more...</a>
+                            <h:commandButton class="btn btn-danger" action="#{postService.deletePost(status.index)}" value="Delete"/>
                         </div>
                     </div>
                 </ui:repeat>
