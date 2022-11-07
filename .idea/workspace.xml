@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="Added article&#10;Working delete article">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/PostRepsitory.java" afterDir="false" />
+    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="Added Json writing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/PostRepsitory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PostRepsitory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PostService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/create.xhtml" afterDir="false" />
     </list>
@@ -41,6 +42,33 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="CMS2022114 [wildfly:deploy]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="wildfly:deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +81,7 @@
       <workItem from="1667566794536" duration="824000" />
       <workItem from="1667675321053" duration="3065000" />
       <workItem from="1667679345002" duration="771000" />
-      <workItem from="1667818617528" duration="1448000" />
+      <workItem from="1667818617528" duration="3817000" />
     </task>
     <task id="LOCAL-00001" summary="crate post done&#10;showing posts done">
       <created>1667679409229</created>
@@ -69,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667821177988</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Json writing">
+      <created>1667821931613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667821931613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +125,7 @@
     <MESSAGE value="crate post done&#10;showing posts done" />
     <MESSAGE value="Added article" />
     <MESSAGE value="Added article&#10;Working delete article" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added article&#10;Working delete article" />
+    <MESSAGE value="Added Json writing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Json writing" />
   </component>
 </project>

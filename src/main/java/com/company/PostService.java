@@ -1,5 +1,6 @@
 package com.company;
 
+import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
@@ -20,6 +21,7 @@ public class PostService {
     public void submitPost() {
         post.add(newPost);
         newPost = new Post();
+        save();
     }
 
     public void save() {
@@ -28,6 +30,11 @@ public class PostService {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @PostConstruct
+    public void load(){
+        post = postRepsitory.load();
     }
 
     public void deletePost(int i) {

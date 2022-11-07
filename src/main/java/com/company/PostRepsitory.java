@@ -4,9 +4,7 @@ import com.google.gson.Gson;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Named;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,4 +20,17 @@ public class PostRepsitory {
         bw.close();
     }
 
+    public List<Post> load(){
+        List<Post> post;
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("post.json"));
+
+            String jsonLine = br.readLine();
+            br.close();
+            post = new ArrayList<>(List.of(gson.fromJson(jsonLine, Post[].class)));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return post;
+    }
 }
