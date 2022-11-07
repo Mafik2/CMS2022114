@@ -1,10 +1,9 @@
 package com.company;
 
 import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,20 +12,25 @@ import java.util.List;
 @Named
 public class PostService {
 
+    @Inject
+    private PostRepsitory postRepsitory;
     private Post newPost = new Post();
     private List<Post> post = new ArrayList<>();
-
-    public void save() throws IOException {
-        BufferedWriter bw = new BufferedWriter(new FileWriter("post.json"));
-        bw.write(newPost.getArticle());
-        bw.close();
-    }
 
     public void submitPost() {
         post.add(newPost);
         newPost = new Post();
     }
-    public void deletePost(int i){
+
+    public void save() {
+        try {
+            postRepsitory.save(post);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void deletePost(int i) {
         System.out.println(i);
         this.post.remove(i);
     }

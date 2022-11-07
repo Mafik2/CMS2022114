@@ -30,6 +30,7 @@
                     <h:inputTextarea type="text" class="form-control" id="article" value="#{postService.newPost.article}" required="true"/>
                 </div>
                 <h:commandButton action="#{postService.submitPost()}" type="submit" class="btn btn-outline-success" value="Submit"/>
+                <h:commandButton action="#{postService.save()}" type="submit" class="btn btn-outline-success" value="Submit"/>
             </h:form>
         </div>
     </div>
