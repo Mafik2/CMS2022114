@@ -12,6 +12,6 @@ public class PostFacesUtils {
     public String getParam(){
         Map<String, String> params = FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap();
 
-        return params.get("a");
+        return params.get("id");
     }
 }

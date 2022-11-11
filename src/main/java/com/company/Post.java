@@ -10,11 +10,11 @@ public class Post {
     private String article;
 
     public String getUuid() {
-        return UUID.randomUUID().toString();
+        return uuid;
     }
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
+    public void setUuid() {
+        this.uuid = UUID.randomUUID().toString();
     }
 
     public String getTitle() {

@@ -21,7 +21,6 @@ public class PostService {
 
     public void submitPost() throws IOException {
         post.add(newPost);
-        newPost.setUuid(newPost.getUuid());
         newPost = new Post();
         save();
         facesUtils.redirect();
