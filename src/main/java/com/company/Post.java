@@ -1,11 +1,22 @@
 package com.company;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class Post {
+    private String uuid;
     private String title;
     private String description;
     private String article;
+
+    public String getUuid() {
+        return UUID.randomUUID().toString();
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+
     public String getTitle() {
         return title;
     }

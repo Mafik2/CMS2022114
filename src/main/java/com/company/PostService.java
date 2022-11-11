@@ -16,12 +16,15 @@ public class PostService {
     @Inject
     private PostRepsitory postRepsitory;
     private Post newPost = new Post();
+    private PostFacesUtils facesUtils = new PostFacesUtils();
     private List<Post> post = new ArrayList<>();
 
-    public void submitPost() {
+    public void submitPost() throws IOException {
         post.add(newPost);
+        newPost.setUuid(newPost.getUuid());
         newPost = new Post();
         save();
+        facesUtils.redirect();
     }
 
     public void save() {
@@ -40,6 +43,10 @@ public class PostService {
     public void deletePost(int i) {
         System.out.println(i);
         this.post.remove(i);
+    }
+
+    public void removePost() {
+        post.remove(newPost);
     }
 
     public Post getNewPost() {

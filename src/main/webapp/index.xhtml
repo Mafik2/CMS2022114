@@ -27,7 +27,9 @@
                             <p class="card-text">#{post.article}</p>
                             <div class="d-flex justify-content-between">
                                 <div>
-                                    <a href="detail.xhtml" class="btn btn-outline-primary">Read more...</a>
+                                    <h:link outcome="detail.xhtml" class="btn btn-outline-primary" value="Read more...">
+                                        <f:param id="p1" value="#{post.uuid}" name="id" />
+                                    </h:link>
                                 </div>
                                 <div>
                                     <h:commandButton class="btn btn-danger" action="#{postService.deletePost(status.index)}" value="Delete"/>

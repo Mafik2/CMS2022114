@@ -29,7 +29,7 @@ public class PostRepsitory {
             br.close();
             post = new ArrayList<>(List.of(gson.fromJson(jsonLine, Post[].class)));
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            return new ArrayList<>();
         }
         return post;
     }
