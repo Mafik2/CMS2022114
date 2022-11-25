@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="Delete btn moved">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="post id added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Post.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/PostFacesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PostFacesUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/PostRepsitory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PostRepsitory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/detail.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/detail.xhtml" afterDir="false" />
     </list>
     <list id="6fd57c58-f62c-4235-9581-cfa8b3394f86" name="Changes by Sirds" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/company/PostDetailUtils.java" afterDir="false" />
@@ -31,14 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/com/company/PostService.java">
-      <ranges>
-        <range start1="22" end1="22" start2="22" end2="23" changelist="6fd57c58-f62c-4235-9581-cfa8b3394f86" />
-        <range start1="23" end1="24" start2="24" end2="24" changelist="e963dc1e-122a-4fa1-871d-b0e540ee257b" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="2H4zy8u0v4YURrc2Fswl3Mm8qC4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,6 +84,8 @@
       <workItem from="1667675321053" duration="3065000" />
       <workItem from="1667679345002" duration="771000" />
       <workItem from="1667818617528" duration="6161000" />
+      <workItem from="1668614558707" duration="601000" />
+      <workItem from="1669370081591" duration="3150000" />
     </task>
     <task id="LOCAL-00001" summary="crate post done&#10;showing posts done">
       <created>1667679409229</created>
@@ -124,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667824180922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="post id added">
+      <created>1668164137300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668164137300</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +145,7 @@
     <MESSAGE value="Added article&#10;Working delete article" />
     <MESSAGE value="Added Json writing" />
     <MESSAGE value="Reading and writing works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reading and writing works" />
+    <MESSAGE value="post id added" />
+    <option name="LAST_COMMIT_MESSAGE" value="post id added" />
   </component>
 </project>
