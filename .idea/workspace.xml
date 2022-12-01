@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="simplemde fixed">
+    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="commonMark added (not working)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="6fd57c58-f62c-4235-9581-cfa8b3394f86" name="Changes by Sirds" comment="">
@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/detail.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/detail.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/edit.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/edit.xhtml" afterDir="false" />
     </list>
+    <list id="a869030f-4fca-4cc5-ad28-341a919ae06f" name="Changes by SirdsH" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +91,7 @@
       <workItem from="1669370081591" duration="3511000" />
       <workItem from="1669374488021" duration="385000" />
       <workItem from="1669799866965" duration="2471000" />
-      <workItem from="1669883719087" duration="5573000" />
+      <workItem from="1669883719087" duration="6849000" />
     </task>
     <task id="LOCAL-00001" summary="crate post done&#10;showing posts done">
       <created>1667679409229</created>
@@ -162,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669887749341</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commonMark added (not working)">
+      <created>1669890571026</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669890571026</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +199,7 @@
     <MESSAGE value="Added fragments" />
     <MESSAGE value="Added edit post" />
     <MESSAGE value="simplemde fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="simplemde fixed" />
+    <MESSAGE value="commonMark added (not working)" />
+    <option name="LAST_COMMIT_MESSAGE" value="commonMark added (not working)" />
   </component>
 </project>
