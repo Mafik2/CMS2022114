@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="Added edit post">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/create.xhtml" afterDir="false" />
+    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="simplemde fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="6fd57c58-f62c-4235-9581-cfa8b3394f86" name="Changes by Sirds" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/PostDetailUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/detail.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/detail.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/edit.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/edit.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="CMS2022114 [wildfly:deploy]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
@@ -86,7 +90,7 @@
       <workItem from="1669370081591" duration="3511000" />
       <workItem from="1669374488021" duration="385000" />
       <workItem from="1669799866965" duration="2471000" />
-      <workItem from="1669883719087" duration="2669000" />
+      <workItem from="1669883719087" duration="5573000" />
     </task>
     <task id="LOCAL-00001" summary="crate post done&#10;showing posts done">
       <created>1667679409229</created>
@@ -151,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669887447060</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="simplemde fixed">
+      <created>1669887749341</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669887749341</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +190,7 @@
     <MESSAGE value="Added article to detail" />
     <MESSAGE value="Added fragments" />
     <MESSAGE value="Added edit post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added edit post" />
+    <MESSAGE value="simplemde fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="simplemde fixed" />
   </component>
 </project>
