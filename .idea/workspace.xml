@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="Added article to detail">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fragments/head.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fragments/headerBlog.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fragments/headerCreate.xhtml" afterDir="false" />
+    <list default="true" id="e963dc1e-122a-4fa1-871d-b0e540ee257b" name="Changes" comment="Added fragments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/create.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/create.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/detail.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/detail.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/edit.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/edit.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
     </list>
     <list id="6fd57c58-f62c-4235-9581-cfa8b3394f86" name="Changes by Sirds" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/company/PostDetailUtils.java" afterDir="false" />
@@ -92,7 +87,8 @@
       <workItem from="1668614558707" duration="601000" />
       <workItem from="1669370081591" duration="3511000" />
       <workItem from="1669374488021" duration="385000" />
-      <workItem from="1669799866965" duration="1756000" />
+      <workItem from="1669799866965" duration="2471000" />
+      <workItem from="1669883719087" duration="2367000" />
     </task>
     <task id="LOCAL-00001" summary="crate post done&#10;showing posts done">
       <created>1667679409229</created>
@@ -143,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669375597005</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added fragments">
+      <created>1669801668794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669801668794</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +172,7 @@
     <MESSAGE value="post id added" />
     <MESSAGE value="Added uuid detail" />
     <MESSAGE value="Added article to detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added article to detail" />
+    <MESSAGE value="Added fragments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added fragments" />
   </component>
 </project>

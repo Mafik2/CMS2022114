@@ -14,7 +14,9 @@
             <div><h1>#{postFacesUtils.post.title}</h1></div>
             <div class="d-flex justify-content-end">
                 <div class="me-1">
-                    <h:link outcome="edit.xhtml" class="btn btn-outline-primary" value="Edit"/>
+                    <h:link outcome="edit.xhtml" class="btn btn-outline-primary" value="Edit">
+                        <f:param id="p1" value="#{postFacesUtils.post.uuid}" name="id" />
+                    </h:link>
                 </div>
                 <div>
                     <h:link outcome="index.xhtml" class="btn btn-primary" value="Home page"/>

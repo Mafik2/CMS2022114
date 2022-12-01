@@ -6,15 +6,40 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" />
     <ui:include src="fragments/head.xhtml"></ui:include>
 </h:head>
 <h:body>
 <div class="m-5">
     <div class="d-flex justify-content-between">
-        <div><h1>Edit #TITLE#</h1></div>
+        <div><h1>Edit - #{postFacesUtils.post.title}</h1></div>
         <div><h:link outcome="index.xhtml" class="btn btn-primary" value="Home page"/></div>
     </div>
     <hr/>
+
+    <div>
+        <h:form>
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <h:inputText type="text" class="form-control" id="title" value="#{postFacesUtils.post.title}" required="true"/>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <h:inputText type="text" class="form-control" id="description" value="#{postFacesUtils.post.description}" required="true"/>
+            </div>
+            <div class="mb-3">
+                <label for="article" class="form-label">Article</label>
+                <h:inputTextarea type="text" class="article form-control" id="article" value="#{postFacesUtils.post.article}" required="true"/>
+            </div>
+            <h:commandButton action="#{postService.editPost()}" type="submit" class="btn btn-outline-success" value="Submit">
+                <f:param id="p1" value="#{postFacesUtils.post.uuid}" name="id" />
+            </h:commandButton>
+        </h:form>
+    </div>
+
 </div>
+    <script type="text/javascript">
+        var simplemde = new SimpleMDE({ element: document.querySelector(".article") });
+    </script>
 </h:body>
 </html>
